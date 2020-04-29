@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HoloResource_Example' do
+  pod 'HoloResource', :path => '../'
+
+  target 'HoloResource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
