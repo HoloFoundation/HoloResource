@@ -2,8 +2,11 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+install! 'cocoapods', :disable_input_output_paths => true
+
 target 'HoloResource_Example' do
   pod 'HoloResource', :path => '../'
+  pod 'HoloResourceForTest', :path => '../HoloResourceForTest/'
 
   target 'HoloResource_Tests' do
     inherit! :search_paths
