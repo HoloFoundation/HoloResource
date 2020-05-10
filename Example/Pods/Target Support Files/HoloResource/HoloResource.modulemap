@@ -1,6 +1,0 @@
-framework module HoloResource {
-  umbrella header "HoloResource-umbrella.h"
-
-  export *
-  module * { export * }
-}
