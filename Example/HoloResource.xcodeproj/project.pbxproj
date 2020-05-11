@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37D6E63C0BD4FC22A91B6FDF /* Pods_HoloResource_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF8CD5D4875F16A26FEC73 /* Pods_HoloResource_Example.framework */; };
+		33AB08176160168C7E8C107E /* libPods-HoloResource_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12C2E2DC15626047C47F38F /* libPods-HoloResource_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		68B6B30DCC06C6C6CC40C268 /* Pods_HoloResource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706E225D19B31F1A0DE067 /* Pods_HoloResource_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C575C8DD66FB7B18B5B5FDB5 /* libPods-HoloResource_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC618E49F57097B28E2E7BC8 /* libPods-HoloResource_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		05DCF0CB8059C8F81DF5E32C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		08706E225D19B31F1A0DE067 /* Pods_HoloResource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoloResource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		093BC8F755F2C5B08E8C0A7A /* Pods-HoloResource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoloResource_Example.debug.xcconfig"; path = "Target Support Files/Pods-HoloResource_Example/Pods-HoloResource_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HoloResource_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoloResource_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F56BF6ABEB9940B7739FCD1 /* HoloResource.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HoloResource.podspec; path = ../HoloResource.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8EE9503A2748F38A1C99645 /* Pods-HoloResource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoloResource_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HoloResource_Tests/Pods-HoloResource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAEF8CD5D4875F16A26FEC73 /* Pods_HoloResource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoloResource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD027E1613B734FDF418E0A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D12C2E2DC15626047C47F38F /* libPods-HoloResource_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoloResource_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC618E49F57097B28E2E7BC8 /* libPods-HoloResource_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoloResource_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				37D6E63C0BD4FC22A91B6FDF /* Pods_HoloResource_Example.framework in Frameworks */,
+				C575C8DD66FB7B18B5B5FDB5 /* libPods-HoloResource_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				68B6B30DCC06C6C6CC40C268 /* Pods_HoloResource_Tests.framework in Frameworks */,
+				33AB08176160168C7E8C107E /* libPods-HoloResource_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CAEF8CD5D4875F16A26FEC73 /* Pods_HoloResource_Example.framework */,
-				08706E225D19B31F1A0DE067 /* Pods_HoloResource_Tests.framework */,
+				EC618E49F57097B28E2E7BC8 /* libPods-HoloResource_Example.a */,
+				D12C2E2DC15626047C47F38F /* libPods-HoloResource_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				809186ACA55F9ED44A89E0A9 /* [CP] Embed Pods Frameworks */,
+				DFA0B235F3E757A0F0114CD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,19 +339,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		809186ACA55F9ED44A89E0A9 /* [CP] Embed Pods Frameworks */ = {
+		DFA0B235F3E757A0F0114CD2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoloResource_Example/Pods-HoloResource_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoloResource_Example/Pods-HoloResource_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

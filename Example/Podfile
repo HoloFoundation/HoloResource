@@ -1,5 +1,7 @@
 #use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
 
 install! 'cocoapods', :disable_input_output_paths => true

@@ -45,4 +45,6 @@ TODO: Add long description of the pod here.
     'GCC_PREPROCESSOR_DEFINITIONS' => 'HOLO_POD_NAME=@(\"HoloResource\")' # 配置预编译宏
   }
   
+  s.dependency 'YYCache'
+  
 end
