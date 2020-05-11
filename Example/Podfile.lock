@@ -1,6 +1,7 @@
 PODS:
   - HoloResource (0.1.0)
-  - HoloResourceForTest (0.1.0)
+  - HoloResourceForTest (0.1.0):
+    - HoloResource
 
 DEPENDENCIES:
   - HoloResource (from `../`)
@@ -14,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HoloResource: b76b5c18575cbf195d33cfaa1f1a39ce7a523063
-  HoloResourceForTest: d187ae90ea072e5e9cea102db378e5d2a0ef688e
+  HoloResourceForTest: 36b603bc000973f4cb963c5dbce4f32c00a6f789
 
 PODFILE CHECKSUM: c15f1b0cd532bdb437702aba2eeea8b3cbdd2bcc
 

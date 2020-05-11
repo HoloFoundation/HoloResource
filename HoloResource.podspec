@@ -39,4 +39,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 配置 Xcode Build Setting
+  s.xcconfig = {
+    'GCC_PREPROCESSOR_DEFINITIONS' => 'HOLO_POD_NAME=@(\"HoloResource\")' # 配置预编译宏
+  }
+  
 end

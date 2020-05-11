@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)logPodName;
 
++ (UIImage *)loadPodImage;
+
 @end
 
 NS_ASSUME_NONNULL_END

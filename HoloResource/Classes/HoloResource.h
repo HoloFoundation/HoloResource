@@ -8,5 +8,6 @@
 #ifndef HoloResource_h
 #define HoloResource_h
 
+#import "UIImage+HoloResource.h"
 
 #endif /* HoloResource_h */
