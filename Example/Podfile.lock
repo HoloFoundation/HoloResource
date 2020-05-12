@@ -1,17 +1,11 @@
 PODS:
-  - HoloResource (0.1.0):
-    - YYCache
+  - HoloResource (0.1.0)
   - HoloResourceForTest (0.1.0):
     - HoloResource
-  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - HoloResource (from `../`)
   - HoloResourceForTest (from `../HoloResourceForTest/`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - YYCache
 
 EXTERNAL SOURCES:
   HoloResource:
@@ -20,9 +14,8 @@ EXTERNAL SOURCES:
     :path: "../HoloResourceForTest/"
 
 SPEC CHECKSUMS:
-  HoloResource: 63a4d5a25c8da35d037b913143423e38d3a88a3d
+  HoloResource: 223e0d8f2ce871b25f6ad8b96c4757009610fd79
   HoloResourceForTest: 7d114eb7ebe9f3dd918ee177dfa1f19156556b35
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 3e2f635f49bea8351ba0b30dae55af441b1c4d80
 
