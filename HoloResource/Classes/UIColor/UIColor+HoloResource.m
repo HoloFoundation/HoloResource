@@ -7,9 +7,6 @@
 
 #import "UIColor+HoloResource.h"
 
-#import <AppKit/AppKit.h>
-
-
 @implementation UIColor (HoloResource)
 
 @end
