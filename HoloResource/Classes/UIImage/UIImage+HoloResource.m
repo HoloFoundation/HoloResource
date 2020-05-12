@@ -6,19 +6,14 @@
 //
 
 #import "UIImage+HoloResource.h"
-#import "HoloResourceImageManage.h"
 
 @implementation UIImage (HoloResource)
 
 + (nullable UIImage *)holo_imageNamed:(NSString *)name inBundle:(nullable NSString *)bundleName {
-    UIImage *image = (UIImage *)[[HoloResourceImageManage sharedInstance].yyCache objectForKey:name];
-    
-    if (!image) image = [self _holo_imageNamed1:name inBundle:bundleName];
+    UIImage *image = [self _holo_imageNamed1:name inBundle:bundleName];
     if (!image) image = [self _holo_imageNamed2:name inBundle:bundleName];
     if (!image) image = [self _holo_imageNamed3:name inBundle:bundleName];
     if (!image) image = [self _holo_imageNamed4:name inBundle:bundleName];
-    
-    [[HoloResourceImageManage sharedInstance].yyCache setObject:image forKey:name];
     return image;
 }
 
