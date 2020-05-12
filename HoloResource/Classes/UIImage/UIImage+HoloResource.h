@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (HoloResource)
 
-+ (nullable UIImage *)holo_imageNamed:(NSString *)name inBundle:(nullable NSString *)bundleName;
++ (UIImage *)holo_imageNamed:(NSString *)name inBundle:(NSString *)bundleName;
 
 @end
 

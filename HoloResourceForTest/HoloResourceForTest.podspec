@@ -32,8 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HoloResourceForTest/Classes/**/*'
   
+  s.resources = ['HoloResourceForTest/Assets/*.png']
   s.resource_bundles = {
-    'HoloResourceForTest' => ['HoloResourceForTest/Assets/*']
+    'HoloResourceForTest' => ['HoloResourceForTest/Assets/*.yaml']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
