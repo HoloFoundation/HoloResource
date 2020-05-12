@@ -9,11 +9,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define holo_imageNamed(name) [UIImage holo_imageNamed:name inBundleName:HOLO_POD_NAME];
+#if defined(HOLO_POD_NAME)
+#define holo_imageNamed(name) [UIImage holo_imageNamed:name inBundle:HOLO_POD_NAME];
+#endif
 
 @interface UIImage (HoloResource)
 
-+ (nullable UIImage *)holo_imageNamed:(NSString *)name inBundleName:(nullable NSString *)bundleName;
++ (nullable UIImage *)holo_imageNamed:(NSString *)name inBundle:(nullable NSString *)bundleName;
 
 @end
 
