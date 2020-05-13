@@ -1,6 +1,6 @@
 //
-//  HoloResourceForTest.h
-//  HoloResourceForTest
+//  HoloResourceDemoA.h
+//  HoloResourceDemoA
 //
 //  Created by 与佳期 on 2020/5/10.
 //
@@ -9,11 +9,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HoloResourceForTest : NSObject
+@interface HoloResourceDemoA : NSObject
 
 + (NSString *)logPodName;
 
 + (UIImage *)loadPodImage;
+
++ (NSString *)logPodLocalized;
 
 @end
 

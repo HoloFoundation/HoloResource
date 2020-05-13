@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 #if defined(HOLO_POD_NAME)
 /// This might be a problem if the pod currently has multiple bundles
 /// then use 'holo_registerFont:withExtension:inBundle:'
-#define holo_registerFont(name, extension) [UIFont holo_registerFont:name withExtension:extension bundleName:HOLO_POD_NAME];
+#define holo_registerFont(name, extension) [UIFont holo_registerFont:name withExtension:extension bundleName:HOLO_POD_NAME]
 #endif
 
 @interface UIFont (HoloResource)

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'HoloResourceForTest'
+  s.name             = 'HoloResourceDemoA'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HoloResourceForTest.'
+  s.summary          = 'A short description of HoloResourceDemoA.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gonghonglou/HoloResourceForTest'
+  s.homepage         = 'https://github.com/gonghonglou/HoloResourceDemoA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gonghonglou' => 'gonghonglou@icloud.com' }
-  s.source           = { :git => 'https://github.com/gonghonglou/HoloResourceForTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gonghonglou/HoloResourceDemoA.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HoloResourceForTest/Classes/**/*'
+  s.source_files = 'HoloResourceDemoA/Classes/**/*'
   
-  s.resources = ['HoloResourceForTest/Assets/*.png']
+#  s.resources = ['HoloResourceDemoA/Assets/**/*']
   s.resource_bundles = {
-    'HoloResourceForTest' => ['HoloResourceForTest/Assets/*.yaml']
+    'HoloResourceDemoA' => ['HoloResourceDemoA/Assets/**/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

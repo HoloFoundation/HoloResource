@@ -1,22 +1,22 @@
 PODS:
   - HoloResource (0.1.0)
-  - HoloResourceForTest (0.1.0):
+  - HoloResourceDemoA (0.1.0):
     - HoloResource
 
 DEPENDENCIES:
   - HoloResource (from `../`)
-  - HoloResourceForTest (from `../HoloResourceForTest/`)
+  - HoloResourceDemoA (from `../HoloResourceDemoA/`)
 
 EXTERNAL SOURCES:
   HoloResource:
     :path: "../"
-  HoloResourceForTest:
-    :path: "../HoloResourceForTest/"
+  HoloResourceDemoA:
+    :path: "../HoloResourceDemoA/"
 
 SPEC CHECKSUMS:
   HoloResource: 223e0d8f2ce871b25f6ad8b96c4757009610fd79
-  HoloResourceForTest: 190daeff2f31d5bd1e48c9ad246f693aad653624
+  HoloResourceDemoA: 4d3ddd0e14d295f6186eec4fbf893ced150ff5e0
 
-PODFILE CHECKSUM: 3e2f635f49bea8351ba0b30dae55af441b1c4d80
+PODFILE CHECKSUM: 3cf009fd47616c4e36253d7b47c8ceaebd3c4046
 
 COCOAPODS: 1.9.1
