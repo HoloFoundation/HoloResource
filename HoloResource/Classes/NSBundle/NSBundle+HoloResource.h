@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 #if defined(HOLO_POD_NAME)
-#define holo_bundleNamed(name) [NSBundle holo_bundleNamed:HOLO_POD_NAME];
+#define holo_currentBundle [NSBundle holo_bundleNamed:HOLO_POD_NAME];
 #endif
 
 @interface NSBundle (HoloResource)

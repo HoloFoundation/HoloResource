@@ -28,7 +28,7 @@
 
 
 /// This might be a problem if the pod currently has multiple bundles
-/// please use 'holo_registerFont:withExtension:inBundle:'
+/// then use 'holo_registerFont:withExtension:inBundle:'
 + (void)holo_registerFont:(NSString *)fontName withExtension:(NSString *)extension bundleName:(NSString *)bundleName {
     NSBundle *bunlde = [NSBundle holo_bundleNamed:bundleName];
     [self holo_registerFont:fontName withExtension:extension inBundle:bunlde];
