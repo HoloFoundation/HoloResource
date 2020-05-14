@@ -1,4 +1,4 @@
-# perform the method in 'post_install'
+# perform after install
 support_path='Pods/Target Support Files'
 xcconfigs=$(cd "$support_path"; ls */*.xcconfig)
 for file in $xcconfigs; do
