@@ -1,4 +1,3 @@
-
 # perform the method in Podfile
 def holo_config_pod_name
     # or copy these code to Podfile
