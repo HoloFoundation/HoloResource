@@ -28,12 +28,12 @@
 }
 
 + (UIImage *)_holo_imageNamed3:(NSString *)name inBundle:(NSString *)bundleName {
-    return [UIImage imageNamed:name];
+    NSString *pathComponent = [NSString stringWithFormat:@"Frameworks/%@.framework", bundleName];
+    return [self _holo_imageNamed:name pathComponent:pathComponent];
 }
 
 + (UIImage *)_holo_imageNamed4:(NSString *)name inBundle:(NSString *)bundleName {
-    NSString *pathComponent = [NSString stringWithFormat:@"Frameworks/%@.framework", bundleName];
-    return [self _holo_imageNamed:name pathComponent:pathComponent];
+    return [UIImage imageNamed:name];
 }
 
 + (UIImage *)_holo_imageNamed:(NSString *)name pathComponent:(NSString *)pathComponent {

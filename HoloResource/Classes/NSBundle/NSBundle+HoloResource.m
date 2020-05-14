@@ -28,12 +28,12 @@
 }
 
 + (NSBundle *)_holo_bundleNamed3:(NSString *)bundleName {
-    return NSBundle.mainBundle;
+    NSString *pathComponent = [NSString stringWithFormat:@"Frameworks/%@.framework", bundleName];
+    return [self _holo_bundleWithPathComponent:pathComponent];
 }
 
 + (NSBundle *)_holo_bundleNamed4:(NSString *)bundleName {
-    NSString *pathComponent = [NSString stringWithFormat:@"Frameworks/%@.framework", bundleName];
-    return [self _holo_bundleWithPathComponent:pathComponent];
+    return NSBundle.mainBundle;
 }
 
 + (NSBundle *)_holo_bundleWithPathComponent:(NSString *)pathComponent {
