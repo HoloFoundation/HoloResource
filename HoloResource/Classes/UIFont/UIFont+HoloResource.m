@@ -11,6 +11,12 @@
 
 @implementation UIFont (HoloResource)
 
+/// If the pod currently has multiple bundles, please check the target resource or use 'holo_registerFont:withExtension:inBundle:'
++ (void)holo_registerFont:(NSString *)fontName withExtension:(NSString *)extension bundleName:(NSString *)bundleName {
+    NSBundle *bunlde = [NSBundle holo_bundleNamed:bundleName];
+    [self holo_registerFont:fontName withExtension:extension inBundle:bunlde];
+}
+
 + (void)holo_registerFont:(NSString *)fontName withExtension:(NSString *)extension inBundle:(NSBundle *)bundle {
     NSURL *fontURL = [bundle URLForResource:fontName withExtension:extension];
     NSData *inData = [NSData dataWithContentsOfURL:fontURL];
@@ -24,14 +30,6 @@
     }
     if (font != NULL) CFRelease(font);
     if (provider != NULL) CFRelease(provider);
-}
-
-
-/// This might be a problem if the pod currently has multiple bundles
-/// then use 'holo_registerFont:withExtension:inBundle:'
-+ (void)holo_registerFont:(NSString *)fontName withExtension:(NSString *)extension bundleName:(NSString *)bundleName {
-    NSBundle *bunlde = [NSBundle holo_bundleNamed:bundleName];
-    [self holo_registerFont:fontName withExtension:extension inBundle:bunlde];
 }
 
 @end
