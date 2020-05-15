@@ -19,6 +19,6 @@ end
 
 
 post_install do |installer|
-  system "sh /Users/hlgong/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh"
-#  system "sh /Users/hlgong/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh PodA PodB PodC"
+  system "sh ~/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh"
+#  system "sh ~/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh PodA PodB PodC"
 end
