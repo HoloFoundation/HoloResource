@@ -15,7 +15,7 @@
 }
 
 + (UIImage *)loadPodImage {
-    return holo_imageNamed(@"home");
+    return HoloImageNamed(@"home");
 }
 
 + (NSString *)logPodLocalized {
