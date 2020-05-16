@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # perform after install
 support_path='Pods/Target Support Files'
 
