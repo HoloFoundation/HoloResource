@@ -14,14 +14,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 需要在 pod install 之后调用脚本配置预编译宏：`HOLO_POD_NAME`，例如在 Pofile 里：
 ```shell
 post_install do |installer|
-  system "sh ~/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh"
+  system "sh Pods/HoloResource/HoloResource/Assets/holo_pod_name_config.sh"
 end
 ```
 
 该脚本默认给所有 Pod 添加配置，如果想指定 Pod 添加配置的话给脚本传入参数，例如在 Pofile 里：
 ```shell
 post_install do |installer|
-  system "sh ~/holo/HoloResource/HoloResource/Assets/holo_pod_name_config.sh PodA PodB PodC"
+  system "sh Pods/HoloResource/HoloResource/Assets/holo_pod_name_config.sh PodA PodB PodC"
 end
 ```
 
