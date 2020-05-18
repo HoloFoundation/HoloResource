@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HoloResource'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HoloResource.'
+  s.summary          = '组件化资源文件管理组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+组件化资源文件管理方案，建议提供静态库，使用 resource_bundles 存储资源文件.
                        DESC
 
   s.homepage         = 'https://github.com/gonghonglou/HoloResource'
