@@ -25,6 +25,37 @@ post_install do |installer|
 end
 ```
 
+## Usage
+
+### 图片 UIImage
+```objc
+UIImage *image = HoloImageNamed(@"icon");
+// or
+UIImage *image = [UIImage holo_imageNamed:@"icon" inBundle:HOLO_POD_NAME];
+```
+
+### 路径 NSBundle
+```objc
+NSBundle *bundle = HoloCurrentBundle;
+// or
+NSBundle *bundle = [NSBundle holo_bundleNamed:HOLO_POD_NAME];
+```
+
+### 字体 UIFont
+```objc
+// 注册自定义字体
+HoloRegisterFont(@"GOTHIC", @"TTF");
+// or
+[UIFont holo_registerFont:@"GOTHIC" withExtension:@"TTF" bundleName:HOLO_POD_NAME];
+```
+
+### 本地化语言 Localized
+```objc
+NSString *string = HoloLocalizedStringFromTable(@"key", @"table", nil);
+// or
+NSString *string = HoloLocalizedStringWithDefaultValue(@"key", @"table", @"value", nil);
+```
+
 ## Installation
 
 HoloResource is available through [CocoaPods](https://cocoapods.org). To install
@@ -41,3 +72,5 @@ gonghonglou, gonghonglou@icloud.com
 ## License
 
 HoloResource is available under the MIT license. See the LICENSE file for more info.
+
+
