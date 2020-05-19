@@ -27,29 +27,29 @@ end
 
 ## Usage
 
-### 图片 UIImage
+### UIImage
 ```objc
 UIImage *image = HoloImageNamed(@"icon");
 // or
 UIImage *image = [UIImage holo_imageNamed:@"icon" inBundle:HOLO_POD_NAME];
 ```
 
-### 路径 NSBundle
+### NSBundle
 ```objc
 NSBundle *bundle = HoloCurrentBundle;
 // or
 NSBundle *bundle = [NSBundle holo_bundleNamed:HOLO_POD_NAME];
 ```
 
-### 字体 UIFont
+### UIFont
 ```objc
-// 注册自定义字体
+// 注册字体
 HoloRegisterFont(@"GOTHIC", @"TTF");
 // or
 [UIFont holo_registerFont:@"GOTHIC" withExtension:@"TTF" bundleName:HOLO_POD_NAME];
 ```
 
-### 本地化语言 Localized
+### Localized
 ```objc
 NSString *string = HoloLocalizedStringFromTable(@"key", @"table", nil);
 // or
