@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIImage *)loadPodImage;
 
++ (NSBundle *)loadPodBundle;
+
 + (NSString *)logPodLocalized;
 
 @end

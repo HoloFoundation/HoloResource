@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../HoloResourceDemoA/"
 
 SPEC CHECKSUMS:
-  HoloResource: 74186c295497cb5a3ace8dd954a007582dd4ef3b
+  HoloResource: a64b4048c92d6410d65e8bcb002fc415f81cca34
   HoloResourceDemoA: 4d3ddd0e14d295f6186eec4fbf893ced150ff5e0
 
 PODFILE CHECKSUM: addc8aa692577a2d1590e0620cc7b955f6c5041b

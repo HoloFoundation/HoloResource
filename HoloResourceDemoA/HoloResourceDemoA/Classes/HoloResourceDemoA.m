@@ -18,6 +18,10 @@
     return HoloImageNamed(@"home");
 }
 
++ (NSBundle *)loadPodBundle {
+    return HoloCurrentBundle;
+}
+
 + (NSString *)logPodLocalized {
     return HoloLocalizedStringFromTable(@"holo_resource_demo_a_sure", @"HoloResourceDemoA", nil);
 }
