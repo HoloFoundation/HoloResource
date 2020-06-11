@@ -25,6 +25,15 @@ post_install do |installer|
 end
 ```
 
+或者你可以用我写的一个 CocoaPods 插件：[cocoapods-resource](https://github.com/HoloFoundation/cocoapods-resource)
+```
+pod resource HOLO_POD_NAME
+
+or
+
+pod resource HOLO_POD_NAME --pods='PodA, PodB, PodC'
+```
+
 ## Usage
 
 ### UIImage
