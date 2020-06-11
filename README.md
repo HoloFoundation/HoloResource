@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+### 1、shell 脚本
+
 需要在 pod install 之后调用脚本配置预编译宏：`HOLO_POD_NAME`，例如在 Pofile 里：
 ```shell
 post_install do |installer|
@@ -25,12 +27,16 @@ post_install do |installer|
 end
 ```
 
+### 2、cocoapods-resource 插件（推荐）
+
 或者你可以用我写的一个 CocoaPods 插件：[cocoapods-resource](https://github.com/HoloFoundation/cocoapods-resource)
 ```
+# 安装
+gem install cocoapods-resource
+
+# 调用
 pod resource HOLO_POD_NAME
-
 or
-
 pod resource HOLO_POD_NAME --pods='PodA, PodB, PodC'
 ```
 
