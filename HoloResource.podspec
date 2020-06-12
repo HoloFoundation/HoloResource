@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 组件化资源文件管理方案，建议提供静态库，使用 resource_bundles 存储资源文件.
                        DESC
 
-  s.homepage         = 'https://github.com/gonghonglou/HoloResource'
+  s.homepage         = 'https://github.com/HoloFoundation/HoloResource'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gonghonglou' => 'gonghonglou@icloud.com' }
-  s.source           = { :git => 'https://github.com/gonghonglou/HoloResource.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HoloFoundation/HoloResource.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
