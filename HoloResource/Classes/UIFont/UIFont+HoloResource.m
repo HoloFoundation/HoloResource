@@ -22,6 +22,9 @@
     NSData *inData = [NSData dataWithContentsOfURL:fontURL];
     CFErrorRef error;
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((CFDataRef)inData);
+    // Try to fix: CGFontCreateWithDataProvider crash on iOS 10
+    // https://stackoverflow.com/questions/24900979/cgfontcreatewithdataprovider-hangs-in-airplane-mode
+    [UIFont familyNames];
     CGFontRef font = CGFontCreateWithDataProvider(provider);
     if (!CTFontManagerRegisterGraphicsFont(font, &error)) {
         CFStringRef errorDescription = CFErrorCopyDescription(error);
