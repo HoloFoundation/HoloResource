@@ -1,5 +1,5 @@
 PODS:
-  - HoloResource (0.1.0)
+  - HoloResource (0.1.1)
   - HoloResourceDemoA (0.1.0):
     - HoloResource
 
@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
     :path: "../HoloResourceDemoA/"
 
 SPEC CHECKSUMS:
-  HoloResource: 871b1c5575d25ce69e927935e1e64398f654fdaa
+  HoloResource: ca351ca64342ba90c2e74eac4c171e39c633a4a8
   HoloResourceDemoA: 4d3ddd0e14d295f6186eec4fbf893ced150ff5e0
 
 PODFILE CHECKSUM: addc8aa692577a2d1590e0620cc7b955f6c5041b
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
