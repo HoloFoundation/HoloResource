@@ -1,6 +1,6 @@
 # HoloResource
 
-[![CI Status](https://img.shields.io/travis/gonghonglou/HoloResource.svg?style=flat)](https://travis-ci.org/gonghonglou/HoloResource)
+[![CI Status](https://img.shields.io/travis/HoloFoundation/HoloResource.svg?style=flat)](https://travis-ci.org/HoloFoundation/HoloResource)
 [![Version](https://img.shields.io/cocoapods/v/HoloResource.svg?style=flat)](https://cocoapods.org/pods/HoloResource)
 [![License](https://img.shields.io/cocoapods/l/HoloResource.svg?style=flat)](https://cocoapods.org/pods/HoloResource)
 [![Platform](https://img.shields.io/cocoapods/p/HoloResource.svg?style=flat)](https://cocoapods.org/pods/HoloResource)
